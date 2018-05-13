@@ -73,9 +73,9 @@ Plug 'kana/vim-textobj-user'
 Plug 'Julian/vim-textobj-variable-segment'
 
 " Completion
-Plug 'Shougo/deoplete.nvim'
+" Plug 'Shougo/deoplete.nvim'
 Plug 'roxma/nvim-yarp'
-Plug 'roxma/vim-hug-neovim-rpc'
+" Plug 'roxma/vim-hug-neovim-rpc'
 
 " Tmux
 Plug 'benmills/vimux'
@@ -97,7 +97,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'lervag/vimtex', { 'for': ['latex', 'tex'] }
 Plug 'racer-rust/vim-racer', { 'for': 'rust' }
-Plug 'zchee/deoplete-clang'
+" Plug 'zchee/deoplete-clang'
 
 " Themes
 "Plug 'morhetz/gruvbox'
