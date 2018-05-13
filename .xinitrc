@@ -1,7 +1,5 @@
 #!/bin/sh
 
-exec awesome
-
 userresources=$HOME/.Xresources
 sysresource=/etc/X11/xinit/.Xresources
 
@@ -32,10 +30,10 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 # xcompmgr &
-compton --config .config/compton.conf &
+# compton --config .config/compton.conf &
 
+# session=${1:-awesome}
 # select wm/de with: startx ~/.xinitrc session
-session=${1:-awesome}
 
 case "$session" in
     awesome)
@@ -46,8 +44,8 @@ case "$session" in
         exec alacritty --dimensions 213 56 ;;
     i3|i3wm)
         exec i3 ;;
-    gnome)
-        exec gnome ;;
+    xfce4)
+        exec xfce4-session ;;
     *)
         exec "$session"
 esac
