@@ -6,7 +6,7 @@
 export PATH="$HOME/.bin:$PATH"
 
 # terminal emulator
-export TERMINAL='urxvt'
+export TERMINAL='st'
 
 # editor
 export VISUAL='vim'
