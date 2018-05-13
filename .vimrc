@@ -61,6 +61,7 @@ Plug 'chrisbra/NrrwRgn'
 "Plug 'kopischke/vim-fetch'
 Plug 'w0rp/ale'
 "Plug 'ludovicchabant/vim-gutentags'
+Plug 'xuhdev/vim-latex-live-preview'
 
 " Text objects
 Plug 'wellle/targets.vim'
