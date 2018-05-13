@@ -46,6 +46,8 @@ case "$session" in
         exec alacritty --dimensions 213 56 ;;
     i3|i3wm)
         exec i3 ;;
+    gnome)
+        exec gnome ;;
     *)
         exec "$session"
 esac
