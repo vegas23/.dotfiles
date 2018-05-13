@@ -36,3 +36,16 @@ compton --config .config/compton.conf &
 
 # select wm/de with: startx ~/.xinitrc session
 session=${1:-awesome}
+
+case "$session" in
+    awesome)
+        exec awesome ;;
+    termite|term)
+        exec termite --geometry='1920x1980' ;;
+    alacritty)
+        exec alacritty --dimensions 213 56 ;;
+    i3|i3wm)
+        exec i3 ;;
+    *)
+        exec "$session"
+esac
