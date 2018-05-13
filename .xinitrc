@@ -32,7 +32,7 @@ fi
 # xcompmgr &
 # compton --config .config/compton.conf &
 
-# session=${1:-awesome}
+session=${1:-awesome}
 # select wm/de with: startx ~/.xinitrc session
 
 case "$session" in
