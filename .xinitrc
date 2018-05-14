@@ -32,6 +32,9 @@ fi
 # xcompmgr &
 # compton --config .config/compton.conf &
 
+# set random wallpaper
+feh --randomize --bg-scale ~/Wallpapers/
+
 session=${1:-awesome}
 # select wm/de with: startx ~/.xinitrc session
 
