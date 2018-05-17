@@ -945,6 +945,8 @@ set directory+=~/.vim/.swap//
 set directory+=~/.tmp//
 set directory+=.
 
+let $TMPDIR = $HOME."/tmp"
+
 if exists('+undofile')
     if !isdirectory($HOME . '/.vim/.undo')
         silent !mkdir -p ~/.vim/.undo >/dev/null 2>&1

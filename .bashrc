@@ -12,6 +12,8 @@
 # alias ls='ls --color=auto'
 # PS1='[\u@\h \W]\$ '
 
+export VISUAL="vim"
+
 #  DIRCOLORS  #
 eval "$(dircolors "$HOME/.dircolors")"
 
